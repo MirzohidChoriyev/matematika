@@ -1,0 +1,89 @@
+
+.Topbar{ 
+	height: 45px;
+	width: 100%;
+	background: white;
+	box-shadow: 0px 0px 5px gray; 
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 10;
+}
+.TopbarTitle{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    color: black;
+}
+.TopbarTitle span{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.Topbar .TopbarContainer{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 50px;
+}
+.TopbarItem{
+	float: left;
+	margin: 0px 7px;
+	border-bottom: 1px solid gray;
+	transition: 0.4s;
+}
+.TopbarItem:hover{
+	border-bottom: 1px solid #51DBDB;
+	cursor: pointer;
+	color: darkorange;
+}
+.TopbarItemIcon{
+	border: none;
+	color: black;
+    border-bottom: none;
+    position: absolute;	
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.SearchItem{
+	position: fixed;
+	top: 50px;
+	right: 10px;
+	z-index: 10;
+	display: none;
+}
+.SearchItem input{
+	padding: 3px 10px;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 3px;
+	width: 350px;
+}
+
+
+@media screen and (max-width: 550px){
+	.TopbarItem{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 450px){
+    .SearchItem{
+		display: block;
+		left: 10px;
+		right: 10px;
+	}
+	.SearchItem input{
+		width: 300px;
+	}
+}
+
+

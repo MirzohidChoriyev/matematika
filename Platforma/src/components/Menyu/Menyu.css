@@ -1,0 +1,217 @@
+.MenyuCards{
+	padding: 40px 100px;
+	background: #2B37E0;
+	cursor: pointer;
+}
+.MenyuCardsItem1{
+	width: 500px;
+	height: 300px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://xabar.uz/static/crop/3/2/920__95_3217853114.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	object-fit: cover;
+}
+.MenyuCardsItem2{
+	width: 500px;
+	height: 300px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://www.inform.kz/radmin/news/2020/07/30/200730123002167e.jpg);
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+
+.MenyuCardsItem1 .span1{
+	display: block;
+	padding: 5px 10px;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 2px gray;	
+}
+.MenyuCardsItem2 .span2{
+	display: block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 2px gray;	
+}
+
+@media screen and (max-width:1300px){
+.MenyuCardsItem1{
+	width: 400px;
+	height: 270px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://xabar.uz/static/crop/3/2/920__95_3217853114.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	object-fit: cover;
+}
+.MenyuCardsItem2{
+	width: 400px;
+	height: 270px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://www.inform.kz/radmin/news/2020/07/30/200730123002167e.jpg);
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+
+.MenyuCardsItem1 .span1{
+	display: block;
+	padding: 5px 10px;
+	font-size: 27px;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 2px gray;	
+}
+.MenyuCardsItem2 .span2{
+	display: block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 2px gray;	
+}
+
+}
+@media screen and (max-width:600px){
+	.MenyuCardsItem1{
+	width: 400px;
+	height: 270px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://xabar.uz/static/crop/3/2/920__95_3217853114.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	object-fit: cover;
+}
+.MenyuCardsItem2{
+	width: 400px;
+	height: 270px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://www.inform.kz/radmin/news/2020/07/30/200730123002167e.jpg);
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+
+.MenyuCardsItem1 .span1{
+	display: block;
+	padding: 5px 10px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 2px gray;	
+}
+.MenyuCardsItem2 .span2{
+	display: block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 2px gray;	
+}
+
+.MenyuCards{
+	padding: 30px 0px;
+	background: #2B37E0;
+	cursor: pointer;
+}
+
+}
+
+@media screen and (max-width:500px){
+	.MenyuCardsItem1{
+	width: 350px;
+	height: 250px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://xabar.uz/static/crop/3/2/920__95_3217853114.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	object-fit: cover;
+}
+.MenyuCardsItem2{
+	width: 350px;
+	height: 250px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://www.inform.kz/radmin/news/2020/07/30/200730123002167e.jpg);
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+
+.MenyuCardsItem1 .span1{
+	display: block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 2px gray;	
+}
+.MenyuCardsItem2 .span2{
+	display: block;
+	padding: 5px 10px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 2px gray;	
+}
+
+.MenyuCards{
+	padding: 30px 0px;
+	background: #2B37E0;
+	cursor: pointer;
+}
+
+}
+
+@media screen and (max-width:450px){
+    .MenyuCardsItem1{
+	width: 310px;
+	height: 220px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://xabar.uz/static/crop/3/2/920__95_3217853114.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	object-fit: cover;
+}
+.MenyuCardsItem2{
+	width: 310px;
+	height: 220px;
+	box-shadow: 0px 0px 10px lightgray;
+	margin: auto;
+	background-image: url(https://www.inform.kz/radmin/news/2020/07/30/200730123002167e.jpg);
+	background-size: cover;
+	object-fit: cover;
+	border-radius: 3px;
+	margin-top: 40px;
+}
+
+.MenyuCardsItem1 .span1{
+	display: block;
+	padding: 10px 10px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 2px gray;	
+}
+.MenyuCardsItem2 .span2{
+	display: block;
+	padding: 10px 10px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0px 0px 2px gray;	
+}
+
+.MenyuCards{
+	padding: 30px 0px;
+	background: #2B37E0;
+	cursor: pointer;
+}
+}

@@ -1,0 +1,31 @@
+
+.QuizStart{
+	padding-bottom: 30px;
+}
+.QuizItem{
+	width: 400px;
+	height: 150px;
+	box-shadow: 0px 0px 10px lightgray;
+	text-align: center;
+	margin: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.QuizTitle{
+	font-size: 18px;
+}
+.QuizButton{
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 3px 10px;
+	outline: none;
+	background-color: #41A4BA;
+	color: white;
+	transition: 0.4s;
+	text-align: center;
+	margin-top: 20px;
+}
+.QuizButton:hover{
+	box-shadow: 0px 0px 5px gray;
+}

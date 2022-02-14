@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.ResultsCards{
+	padding: 15px 30px; 
+	padding-top: 25px;
+	border-top: 1px solid lightgray;
+}
+
+.ResultsCardsItem{
+	width: 350px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px lightgray;
+	border-left: 4px solid green;
+	border-radius: 3px;
+	padding: 7px 12px;
+}
+.ResultsCardsItem .ResultsTitle{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.ResultsCardsItem .ResultsTitleLegend{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.ResultsCardsItem .ResultsTitleButton{
+    border-radius: 2px;
+    margin-top: 4px;
+    padding: 1px 7px;
+    background: darkorange;
+    color:white;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+}
+.ResultsCardsItem .ResultsTitleButton:hover{
+    box-shadow: 0px 0px 8px gray;
+}
+
+
+@media screen and (max-width:450px){
+ .ResultsCards{
+	padding: 10px 0px;
+	padding-bottom: 20px;
+
+}
+
+.ResultsCardsItem{
+	width: 310px;
+	height: 100px;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px lightgray;
+	border-left: 4px solid green;
+	border-radius: 3px;
+	padding: 7px 12px;
+}
+.ResultsCardsItem .ResultsTitle{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+}
+

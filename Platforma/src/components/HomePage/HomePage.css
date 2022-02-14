@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.HomeCards{
+	padding: 15px 30px;
+}
+ 
+.HomeCardsItem{ 
+	width: 350px;
+	height: 150px;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px lightgray;
+	border-left: 4px solid darkorange;
+	border-radius: 3px;
+	padding: 20px 12px;
+}
+.HomeCardsItem .Title{
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+.HomeCardsItem .TitleLegend{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.HomeCardsItem .TitleButton{
+    border-radius: 2px;
+    margin-top: 7px;
+    padding: 2px 10px;
+    background: green;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+}
+.HomeCardsItem .TitleButton .Link{
+	color: white;
+}
+.HomeCardsItem .TitleButton:hover{
+    box-shadow: 0px 0px 8px gray;
+}
+
+
+@media screen and (max-width:450px){
+ .HomeCards{
+	padding: 10px 0px;
+	padding-bottom: 20px;
+}
+
+.HomeCardsItem{
+	width: 310px;
+	height: 120px;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px lightgray;
+	border-left: 4px solid darkorange;
+	border-radius: 3px;
+	padding: 10px 12px;
+}
+.HomeCardsItem .Title{
+	font-size: 21px;
+	font-family: 'Montserrat', sans-serif;
+}
+}
+
